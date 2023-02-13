@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "tokemak"
+version = "0.1.0"
+description = ""
+authors = ["joelk <joel.kahil@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+matplotlib = "^3.6.3"
+pandas = "^1.5.3"
+web3 = "5.31.3"
+gql = "2.0.0"
+eth-keyfile = "0.5.1"
+pycryptodome = "3.17"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
